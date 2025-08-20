@@ -1,0 +1,29 @@
+site_name: Let's Mark Documentation
+site_description: Automated assessment marking system documentation
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/overview.md
+    - Quick Start: getting-started/quick-start.md
+  - User Guides:
+    - Teachers: guides/teachers.md
+    - School Leaders: guides/leaders.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
